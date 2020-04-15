@@ -1,1 +1,5 @@
+title: "EasyCorp Blog"
+permalink: "/post/:title"
+relative_permalinks: false
+analytics_account: "UA-82842-11"
 theme: jekyll-theme-minimal
