@@ -344,6 +344,14 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 
+/* Listing of blog posts in the index page */
+.posts .post {
+  margin-bottom: 1.5rem;
+}
+.posts .post .post-title {
+  font-size: 1.25rem;
+}
+
 /* Meta data line below post title */
 .post-date {
   display: block;
