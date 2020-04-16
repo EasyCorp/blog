@@ -1,5 +1,25 @@
-title: "EasyCorp Blog"
-permalink: "/post/:title"
-relative_permalinks: false
-analytics_account: "UA-82842-11"
-theme: jekyll-theme-minimal
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            EasyAdmin Blog
+tagline:          ''
+description:      '<a target="_blank" href="https://github.com/EasyCorp/EasyAdminBundle">EasyAdmin</a> is a popular admin generator for <a target="_blank" href="https://symfony.com">Symfony</a> applications.'
+url:              https://easycorp.github.io/
+baseurl:          /
+
+author:
+  name:           'Javier Eguiluz'
+  email:           'javier.eguiluz@gmail.com'
+  url:            https://github.com/javiereguiluz
+
+paginate:         10
+
+# Custom vars
+github:
+  repo:           https://github.com/EasyCorp/EasyAdminBundle

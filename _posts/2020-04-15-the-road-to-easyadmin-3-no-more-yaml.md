@@ -1,5 +1,7 @@
-The Road to EasyAdmin 3: No More YAML
-=====================================
+---
+layout: post
+title: 'The Road to EasyAdmin 3: No More YAML'
+---
 
 [EasyAdmin][1] is an admin generator for Symfony applications. EasyAdmin 3 is
 the new version that will be released soon. This article is part of a series
