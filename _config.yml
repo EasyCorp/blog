@@ -9,8 +9,8 @@ permalink:        pretty
 title:            EasyAdmin Blog
 tagline:          ''
 description:      '<a target="_blank" href="https://github.com/EasyCorp/EasyAdminBundle">EasyAdmin</a> is a popular admin generator for <a target="_blank" href="https://symfony.com">Symfony</a> applications.'
-url:              https://easycorp.github.io/
-baseurl:          /
+url:              https://easycorp.github.io/blog
+baseurl:          https://easycorp.github.io/blog
 
 author:
   name:           'Javier Eguiluz'
