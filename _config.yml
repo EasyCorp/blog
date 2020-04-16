@@ -3,7 +3,6 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
