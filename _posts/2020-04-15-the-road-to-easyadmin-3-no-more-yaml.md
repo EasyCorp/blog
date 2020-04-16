@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The Road to EasyAdmin 3: No More YAML'
-permalink: /posts/the-road-to-easyadmin-3-no-more-yaml
+permalink: /blog/posts/the-road-to-easyadmin-3-no-more-yaml
 ---
 
 [EasyAdmin][1] is an admin generator for Symfony applications. EasyAdmin 3 is
