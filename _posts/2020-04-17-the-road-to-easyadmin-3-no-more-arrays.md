@@ -169,13 +169,40 @@ The resulting code provides benefits for all parties:
 * DTOs are only used internally (`ActionDto`, `MenuItemDto`, `AssetsDto`, etc.)
   and they provide getters/setters to simplify our code.
 
+Collection Objects
+------------------
+
+Sometimes we need to pass or return a group of DTOs, such as a group of
+`ActionDto` to define all the actions of the page or a group of `FieldDto` to
+list all fields displayed on the page. Although it's tempting to use an
+associative array for this, we decided to define specific collection objects.
+
+Our collection objects are similar Doctrine's `ArrayCollection` but simpler,
+because they only provide the methods we really need in our code. This change
+may look minor, but improves the code significantly. Instead of a generic
+``array`` with no specific semantics, we can type-hint arguments and return
+types with these objects, making the code easier to read and write:
+
+```php
+public function processFields(FieldCollection $fields, EntityDto $entityDto): void
+{
+    // ...
+}
+
+public function processGlobalActions(ActionConfigDto $actionsDto): ActionCollection
+{
+    // ...
+}
+```
+
+
 Generic DTOs
 ------------
 
 In some cases, defining a specific DTO felt like overengineering, so we created
 a generic and multi-purpose storage called `KeyValueStore`. It's similar to
-Symfony's `ParameterBag` or Doctrine's `ArrayCollection` but we added support
-for a feature that simplifies our code significantly: "dot notation".
+Symfony's `ParameterBag` but we added support for a feature that simplifies our
+code significantly: "dot notation".
 
 Thanks to the "dot notation", we don't need to perform checks for array keys
 (`if (isset($config['foo']['bar']) { ... }`) and we can quickly get/set/check
