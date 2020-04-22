@@ -279,6 +279,11 @@ use XML in config intended for humans** because of its verbosity and complexity.
 avoids problems such as `CDATA` escaping and the use of "magic strings" for
 fully-qualified class names (solved in PHP using `::class` constants).
 
+<div class="message">
+    👋 If EasyAdmin is useful for you or your company, please consider
+    <a href="https://github.com/sponsors/javiereguiluz">sponsoring me on GitHub</a>.
+</div>
+
 [1]: https://symfony.com/doc/current/best_practices.html
 [2]: /blog/posts/the-road-to-easyadmin-3-no-more-yaml
 [3]: /blog/posts/the-road-to-easyadmin-3-no-more-arrays

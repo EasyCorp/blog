@@ -230,6 +230,11 @@ autocompletion, code is much easier to write too. Finally,
 [objects consume less memory than arrays][3] (at least in PHP 7) so they also
 improve your application performance.
 
+<div class="message">
+    👋 If EasyAdmin is useful for you or your company, please consider
+    <a href="https://github.com/sponsors/javiereguiluz">sponsoring me on GitHub</a>.
+</div>
+
 [1]: /blog/posts/the-road-to-easyadmin-3-no-more-yaml
 [2]: https://en.wikipedia.org/wiki/Data_transfer_object
 [3]: https://steemit.com/php/@crell/php-use-associative-arrays-basically-never
