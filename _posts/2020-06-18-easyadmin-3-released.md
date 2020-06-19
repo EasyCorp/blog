@@ -55,5 +55,5 @@ to learn more about the upgrade process.
 Thank you
 ---------
 
-Now it's time to celebrate 🎉 and thank to the [EasyAdmin contributors](https://symfony.com/doc/master/bundles/EasyAdminBundle/upgrade.html)
+Now it's time to celebrate 🎉 and thank to the [EasyAdmin 3 contributors](https://github.com/EasyCorp/EasyAdminBundle/graphs/contributors?from=2018-05-04&to=2020-06-19&type=c)
 and to all the developers who use it and recommend it to others.
