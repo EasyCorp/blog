@@ -23,13 +23,13 @@ in the entire world and it just has a few hundred [contributors](https://symfony
 compared to the [hundreds of thousands](https://symfony.com/what-is-symfony) of
 developers who use it.
 
-This difference is specially big in EasyAdmin. While the number of downloads
+This difference is especially big in EasyAdmin. While the number of downloads
 keeps rising significantly, contributions are lacking. In addition, most
 contributions are just bug reports instead of pull requests fixing those bugs.
 Sadly, many bug reporters expect me to fix everything without their help.
 
 Don't get me wrong, I'm lucky because EasyAdmin community, like the rest of the
-Symfony community, is very kind and polite, specially
+Symfony community, is very kind and polite, especially
 [our sponsors](https://github.com/sponsors/javiereguiluz). However, too many
 people demand me to fix their bugs and too few people offer any help.
 
