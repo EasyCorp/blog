@@ -29,7 +29,7 @@ forking Symfony Demo and creating an EasyAdmin backend on top of it.
 
 This is how it looks:
 
-![Homepage of the EasyAdmin Demo application](/images/easyadmin-demo-index.png)
+<img src="{{site.url}}/images/easyadmin-demo-index.png" alt="Homepage of the EasyAdmin Demo application" />
 
 Symfony Demo includes its own custom-made backend, so you can compare how to
 create backends with EasyAdmin and with pure Symfony code.
@@ -39,7 +39,7 @@ we've included other resources, such as a "form field reference". This renders
 in a single page all the available form fields in EasyAdmin backends, so you
 can check how they look and feel:
 
-![Full reference of form fields available in EasyAdmin](/images/easyadmin-demo-field-reference.png)
+<img src="{{site.url}}/images/easyadmin-demo-field-reference.png" alt="Full reference of form fields available in EasyAdmin" />
 
 The new EasyAdmin Demo project is available at [github.com/EasyCorp/easyadmin-demo][4].
 
