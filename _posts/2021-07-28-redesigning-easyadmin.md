@@ -138,7 +138,7 @@ to learn about this.
 What's next?
 ------------
 
-The new design is available as a Pull Request at [github.com/EasyCorp/EasyAdminBundle/pulls][8]
+The new design is available as a the [Pull Request #4500][8] in the repository,
 so **you can test it right now**. We'll merge it as soon as possible to include
 it in the next EasyAdmin release.
 
@@ -159,5 +159,5 @@ implementing some of the most requested features.
 [5]: https://fontawesome.com/
 [6]: https://tailwindcss.com/docs/customizing-colors
 [7]: https://bitbucket.org/
-[8]: https://github.com/EasyCorp/EasyAdminBundle/pulls
+[8]: https://github.com/EasyCorp/EasyAdminBundle/pull/4500
 [9]: https://github.com/EasyCorp/EasyAdminBundle/issues?q=is%3Aissue+label%3Adesign+
