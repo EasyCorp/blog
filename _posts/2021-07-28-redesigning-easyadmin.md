@@ -138,7 +138,7 @@ to learn about this.
 What's next?
 ------------
 
-The new design is available as a the [Pull Request #4500][8] in the repository,
+The new design is available as the [Pull Request #4500][8] in the repository,
 so **you can test it right now**. We'll merge it as soon as possible to include
 it in the next EasyAdmin release.
 
