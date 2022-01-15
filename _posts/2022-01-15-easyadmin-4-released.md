@@ -25,7 +25,9 @@ A minor but noticeable change in EasyAdmin 4.x is the new "Welcome Page", which
 is what you see by default when generating a new EasyAdmin dashboard with the
 command `php bin/console make:admin:dashboard`
 
-![EasyAdmin 4 Welcome Page](images/easyadmin-4-welcome-page.jpg)
+<a href="{{site.url}}/images/easyadmin-4-welcome-page.jpg" target="_blank">
+    <img src="{{site.url}}/images/easyadmin-4-welcome-page.jpg" alt="EasyAdmin 4 Welcome Page" />
+</a>
 
 A major feature removed in this version is the command that upgraded the YAML
 files used to configure EasyAdmin 2 into the PHP files used by EasyAdmin 3. If
