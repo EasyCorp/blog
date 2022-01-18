@@ -442,5 +442,6 @@ a.pagination-item:hover {
   background: #fffbeb;
   border-radius: 4px;
   border: 2px solid #fcd34d;
+  margin: 1rem 0;
   padding: 1rem;
 }

@@ -21,8 +21,9 @@
       ];
 
       document.addEventListener('DOMContentLoaded', () => {
-        const postContent = document.querySelector('.post');
-        if (null === postContent) {
+        const postListContainer = document.querySelector('.posts');
+        const postContainer = document.querySelector('.post');
+        if (null === postListContainer && null === postContainer) {
           return;
         }
 
@@ -30,7 +31,12 @@
         var sponsorElement = document.createElement('div');
         sponsorElement.classList.add('sponsor');
         sponsorElement.innerHTML = `${selectedPromo}`;
-        postContent.appendChild(sponsorElement);
+
+        if (null !== postListContainer) {
+          postListContainer.prepend(sponsorElement);
+        } else {
+          postContainer.appendChild(sponsorElement);
+        }
       });
     </script>
 
