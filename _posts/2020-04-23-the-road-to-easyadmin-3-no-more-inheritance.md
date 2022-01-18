@@ -80,11 +80,6 @@ our interfaces in a single place, making it easier to find and use them.
 Hopefully these contracts will be enough to make the project usable and extensible
 even if all classes are "final".
 
-<div class="message">
-    👋 If EasyAdmin is useful for you or your company, please consider
-    <a href="https://github.com/sponsors/javiereguiluz">sponsoring me on GitHub</a>.
-</div>
-
 [1]: https://en.wikipedia.org/wiki/Class_(computer_programming)#Non-subclassable
 [2]: https://ocramius.github.io/blog/when-to-declare-classes-final/
 [3]: https://symfony.com/doc/current/components/contracts.html

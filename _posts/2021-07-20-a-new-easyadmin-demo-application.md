@@ -55,11 +55,6 @@ Symfony Demo repository: **we'll never do that**. Symfony Demo must stay
 agnostic and not favor any of the available admin generators for Symfony
 applications (mostly, [SonataAdmin][5] and [EasyAdmin][2]).
 
-<div class="message">
-    👋 If EasyAdmin is useful for you or your company, please consider
-    <a href="https://github.com/sponsors/javiereguiluz">sponsoring me on GitHub</a>.
-</div>
-
 [1]: https://symfony.com/blog/introducing-the-symfony-demo-application
 [2]: https://github.com/EasyCorp/EasyAdminBundle/
 [3]: https://github.com/javiereguiluz/easy-admin-demo

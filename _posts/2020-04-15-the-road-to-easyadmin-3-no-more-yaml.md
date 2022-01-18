@@ -62,9 +62,4 @@ you.
 The command can't convert 100% of your current config, but it will convert most
 of it, so you'll save a lot of time when upgrading.
 
-<div class="message">
-    👋 If EasyAdmin is useful for you or your company, please consider
-    <a href="https://github.com/sponsors/javiereguiluz">sponsoring me on GitHub</a>.
-</div>
-
 [1]: https://github.com/EasyCorp/EasyAdminBundle
