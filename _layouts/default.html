@@ -21,12 +21,16 @@
       ];
 
       document.addEventListener('DOMContentLoaded', () => {
-        const selectedPromo = promos[Math.floor(Math.random() * promos.length)];
+        const postContent = document.querySelector('.post');
+        if (null === postContent) {
+          return;
+        }
 
+        const selectedPromo = promos[Math.floor(Math.random() * promos.length)];
         var sponsorElement = document.createElement('div');
         sponsorElement.classList.add('sponsor');
         sponsorElement.innerHTML = `${selectedPromo}`;
-        document.body.appendChild(sponsorElement);
+        postContent.appendChild(sponsorElement);
       });
     </script>
 
