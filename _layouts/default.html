@@ -21,8 +21,12 @@
       ];
 
       document.addEventListener('DOMContentLoaded', () => {
-        const selectedPromo = promos[Math.floor(Math.random() * promos.length)]
-        document.body.appendChild(`<div class="sponsor">${selectedPromo}</div>`);
+        const selectedPromo = promos[Math.floor(Math.random() * promos.length)];
+
+        var sponsorElement = document.createElement('div');
+        sponsorElement.classList.add('sponsor');
+        sponsorElement.innerHTML = `${selectedPromo}`;
+        document.body.appendChild(sponsorElement);
       });
     </script>
 
