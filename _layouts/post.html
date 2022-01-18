@@ -7,18 +7,3 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
-
-<script>
-  const promos = [
-    `<strong>❤️ Do you like EasyAdmin?</strong> You (or your company) can now
-  <a href="https://github.com/sponsors/javiereguiluz">sponsor EasyAdmin</a>
-  to fund the development of new features. One-time or regular donations.`,
-  `👋 If EasyAdmin is useful for you or your company, please consider
-    <a href="https://github.com/sponsors/javiereguiluz">sponsoring me on GitHub</a>.`
-  ];
-
-  const selectedPromo = promos[Math.floor(Math.random() * promos.length)]
-  document.body.appendChild(`<div class="sponsor">${selectedPromo}</div>`);
-</script>
-
-
