@@ -44,7 +44,7 @@ The default design of menu badges is similar to what you can find in other apps
 and websites:
 
 <a href="{{site.url}}/images/easyadmin-4-menu-badges.png" target="_blank">
-    <img src="{{site.url}}/images/easyadmin-4-menu-badges.png" alt="Default design of menu badges in EasyAdmin 4" />
+    <img height="600" src="{{site.url}}/images/easyadmin-4-menu-badges.png" alt="Default design of menu badges in EasyAdmin 4" />
 </a>
 
 Even if badges usually display numeric values, you can pass to `setBadge()`
@@ -66,7 +66,7 @@ yield MenuItem::linkToCrud('...', '...', '...')
 The following screenshot shows a backend with several menu badges with custom design:
 
 <a href="{{site.url}}/images/easyadmin-4-menu-badges-custom.png" target="_blank">
-    <img src="{{site.url}}/images/easyadmin-4-menu-badges-custom.png" alt="Menu badges in EasyAdmin 4 with customized design" />
+    <img height="800" src="{{site.url}}/images/easyadmin-4-menu-badges-custom.png" alt="Menu badges in EasyAdmin 4 with customized design" />
 </a>
 
 [1]: https://github.com/EasyCorp/EasyAdminBundle/releases/tag/v4.0.2

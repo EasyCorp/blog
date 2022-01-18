@@ -161,17 +161,14 @@ code {
   border-radius: 3px;
 }
 pre {
+  border-radius: 0;
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 0.25rem 1rem;
   font-size: .8rem;
-  line-height: 1.4;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: #f9f9f9;
+  line-height: 1.7;
+  border-left: 5px solid #f3f3f3;
 }
 pre code {
   padding: 0;
