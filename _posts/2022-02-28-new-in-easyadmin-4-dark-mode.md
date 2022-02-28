@@ -23,7 +23,7 @@ You don't have to change or configure anything in your backend to enable the new
 design:
 
 <a href="{{site.url}}/images/easyadmin-dark-mode-index-page.png" target="_blank">
-    <img height="800" src="{{site.url}}/images/easyadmin-dark-mode-index-page.png" alt="Default design of EasyAdmin 4 dark mode" />
+    <img src="{{site.url}}/images/easyadmin-dark-mode-index-page.png" alt="Default design of EasyAdmin 4 dark mode" />
 </a>
 
 By default, EasyAdmin uses the same mode (light or dark) as the operating system
@@ -35,14 +35,14 @@ If a user prefers to set the mode explicitly, they can use the new mode selector
 located next to their names:
 
 <a href="{{site.url}}/images/easyadmin-dark-mode-selector.png" target="_blank">
-    <img height="800" src="{{site.url}}/images/easyadmin-dark-mode-selector.png" alt="Design mode selector in EasyAdmin 4" />
+    <img src="{{site.url}}/images/easyadmin-dark-mode-selector.png" alt="Design mode selector in EasyAdmin 4" />
 </a>
 
 The new dark mode also applies to all form elements of the different EasyAdmin
 fields:
 
 <a href="{{site.url}}/images/easyadmin-dark-mode-form-types-reference.png" target="_blank">
-    <img height="800" src="{{site.url}}/images/easyadmin-dark-mode-form-types-reference.png" alt="Form type reference using the EasyAdmin 4 dark mode design" />
+    <img src="{{site.url}}/images/easyadmin-dark-mode-form-types-reference.png" alt="Form type reference using the EasyAdmin 4 dark mode design" />
 </a>
 
 [1]: https://github.com/EasyCorp/EasyAdminBundle/releases/tag/v4.0.7
