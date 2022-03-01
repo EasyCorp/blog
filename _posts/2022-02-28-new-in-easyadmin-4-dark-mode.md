@@ -26,6 +26,11 @@ design:
     <img src="{{site.url}}/images/easyadmin-dark-mode-index-page.png" alt="Default design of EasyAdmin 4 dark mode" />
 </a>
 
+We based the "dark mode" design on neutral grays ("light mode" is based on
+bluish grays). This was done to better fit the design of any kind of backend.
+If you need it, check the [EasyAdmin design docs][3] to learn about customizing
+the default EasyAdmin design.
+
 By default, EasyAdmin uses the same mode (light or dark) as the operating system
 of the user. EasyAdmin also changes the design automatically to always keep it
 in sync with the operating system (ideal for those users that change the mode
@@ -47,3 +52,4 @@ fields:
 
 [1]: https://github.com/EasyCorp/EasyAdminBundle/releases/tag/v4.0.7
 [2]: https://easycorp.github.io/blog//posts/easyadmin-3-is-released
+[3]: https://symfony.com/bundles/EasyAdminBundle/current/design.html
